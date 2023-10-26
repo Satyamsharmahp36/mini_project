@@ -1,0 +1,171 @@
+h3 {display: inline-block;
+}
+nav a{text-decoration: none;
+  padding: 100px;
+  color: rgb(222, 214, 204);
+  font-family:cursive;
+   font-weight: 700;
+   padding: 150px;
+   color: rgb(228, 231, 235);
+   text-shadow:  #76767a;
+   font-size: larger;
+   font-family: 'Dancing Script', cursive;
+   font-size: x-large;
+}
+.b{padding-left: 10px
+}
+nav {background-color: black;
+  margin: 0px;border-radius: 40px;
+  padding-bottom: 1px;
+}
+body{background-image: url("123.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    backdrop-filter: blur(15px);
+    }
+    #gh{
+      padding-left: -170px;
+      font-family: 'Dancing Script', cursive;
+      font-size: larger;
+    }
+    #jg{padding-left: 90px;
+    }
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    
+    font-size: 2.25rem;
+  }
+  
+
+  
+  .flip-card {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px 0 rgba(145, 141, 141, 0.2);
+    border-radius: .1em;
+    color: whitesmoke;
+   
+  }
+  nav a{padding-bottom: 15px;}
+  
+  .top,
+  .bottom,
+  .flip-card .top-flip,
+  .flip-card .bottom-flip {
+    height: .75em;
+    line-height: 1;
+    padding: .25em;
+    overflow: hidden;
+  }
+  
+  .top,
+  .flip-card .top-flip {
+    background-color: #363636;
+    border-top-right-radius: .1em;
+    border-top-left-radius: .1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .bottom,
+  .flip-card .bottom-flip {
+    background-color: #363636;
+    display: flex;
+    align-items: flex-end;
+    border-bottom-right-radius: .1em;
+    border-bottom-left-radius: .1em;
+  }
+  
+  .flip-card .top-flip {
+    position: absolute;
+    width: 100%;
+    animation: flip-top 250ms ease-in;
+    transform-origin: bottom;
+    /* color: whitesmoke; */
+  }
+  
+  @keyframes flip-top {
+    100% {
+      transform: rotateX(90deg);
+    }
+  }
+  
+  .flip-card .bottom-flip {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    animation: flip-bottom 250ms ease-out 250ms;
+    transform-origin: top;
+    transform: rotateX(90deg);
+    /* color: whitesmoke; */
+  }
+  
+  @keyframes flip-bottom {
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+  
+  .container {
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+  }
+  
+  .container-segment {
+    display: flex;
+    flex-direction: column;
+    gap: .1em;
+    align-items: center;
+  }
+  
+  .segment {
+    display: flex;
+    gap: .1em;
+  }
+  
+  .segment-title {
+    font-size: 1rem;
+    color: whitesmoke;
+    
+  }
+#parentdiv{
+  padding-top: 20px;
+  padding-bottom: 150px
+  pad
+}
+#ui{
+  display: inline-block;
+  font-family: 'Dancing Script';
+  font-weight: 900;
+  color: rgb(227, 153, 62);
+  padding-left: 470px;
+  padding-top: 50px;
+  font-size: 78px;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+.segment-title{
+  color:rgb(132, 132, 135);
+}
+nav {
+  padding-bottom: 28px;opacity: 200%;
+}
+nav a {
+  font-weight: 900;
+}
+
+
